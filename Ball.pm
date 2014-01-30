@@ -8,6 +8,7 @@ sub new {
 			my $self = {
 					_ballBrand => shift,
 					_ballColor => shift,
+				#add Ball Speed
 								
 			};
 			print "Ball Brand: $self->{_ballBrand}\n";
